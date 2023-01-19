@@ -1,2 +1,7 @@
 node_modules/
 src/
+gulpfile.js
+package-lock.json
+package.json
+app.css.map
+bundle.js.min.map
