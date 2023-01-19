@@ -3,5 +3,4 @@ src/
 gulpfile.js
 package-lock.json
 package.json
-app.css.map
-bundle.js.min.map
+build/img
