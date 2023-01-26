@@ -4,3 +4,5 @@ gulpfile.js
 package-lock.json
 package.json
 build/img
+dimaco_sass.code-workspace
+includes/config/editor/db.php

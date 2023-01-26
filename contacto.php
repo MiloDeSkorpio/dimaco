@@ -42,6 +42,13 @@
                 <div class="s-row">
                     <i class="fa-brands fa-whatsapp"></i>
                     <a href="https://wa.me/message/IVQUUYFBJR73A1" target="_blank">WhatsApp</a>
+                    <div class="qr">
+                        <picture>
+                                <source srcset="build/img/qrwa.webp" type="image/webp">
+                                <source srcset="build/img/qrwa.jpeg" type="image/jpeg">
+                                <img loading="lazy" src="build/img/qrwa.jpeg" alt="qrbr">
+                        </picture>
+                    </div>
                 </div>
                 <div class="s-row">
                     <i class="fa-brands fa-instagram"></i>

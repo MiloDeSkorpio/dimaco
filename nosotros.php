@@ -61,11 +61,13 @@
                 <div class="contenido">
                     <h3 class="titulo">Brochure</h3>
                     <p>Puedes encontrar mas información sobre nosotros en el siguiente archivo.</p>
-                    <picture>
-                            <source srcset="build/img/qrbr.webp" type="image/webp">
-                            <source srcset="build/img/qrbr.jpeg" type="image/jpeg">
-                            <img loading="lazy" src="build/img/qrbr.jpeg" alt="qrbr">
-                    </picture>
+                    <div class="qr">
+                        <picture>
+                                <source srcset="build/img/qrbr.webp" type="image/webp">
+                                <source srcset="build/img/qrbr.jpeg" type="image/jpeg">
+                                <img loading="lazy" src="build/img/qrbr.jpeg" alt="qrbr">
+                        </picture>
+                    </div>
                     <div class="btn">
                         <a href="https://drive.google.com/file/d/1GDikkdafqWc1CCXmoXiIr2y0xeBiuj7q/view?usp=sharing" class="boton boton_secundario" target="_blank">Descargar</a>
                     </div>
