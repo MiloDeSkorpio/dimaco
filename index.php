@@ -22,7 +22,6 @@
                     ?>
                 <div class="servicio glass">
                     <div class="contenido">
-                        <h3 class="titulo"><?= $row['nombre']?></h3>
                         <div class="img_service">
                         <picture>
                             <source srcset="data:image/webp;base64,<?php echo base64_encode($row['imagen']);?>" type="image/webp">
@@ -30,6 +29,7 @@
                             <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>" alt="">
                         </picture>
                         </div><!--.img_service  -->
+                        <h3 class="titulo"><?= $row['nombre']?></h3>
                         <p><?= $row['descr']?></p>
                         <div class="btn">
                             <a href="contacto.php" class="boton boton_secundario">Cotizar</a>

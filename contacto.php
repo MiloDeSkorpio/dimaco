@@ -33,7 +33,28 @@
             </form>
         </div>
         <div class="form-redes glass">
-        <h4>Redes Sociales</h4>
+                    <h4>Contacto</h4>
+            <div class="column-c">
+                <div class="c-row">
+                    <i class="fa-solid fa-shop"></i>
+                    <label>Mariano Zuñiga 113, Metepec, Mexico</label>
+                </div>
+                <div class="c-row">
+                    <i class="fa-solid fa-phone"></i>
+                    <label>722 212 7818</label>
+                </div>
+                <div class="c-row">
+                    <i class="fa-solid fa-envelope"></i>
+                    <label>constructora@scdimaco.com</label>
+                </div>
+            </div>
+            <div class="column-h">
+                 <div class="s-row">
+                    <h4>Horarios de Atencion</h4>
+                    <p>Lunes - Viernes 9:00 - 18:00</p>
+                </div>
+            </div>
+            <h4>Redes Sociales</h4>
             <div class="column-s">
                 <div class="s-row">
                     <i class="fa-brands fa-facebook"></i>
@@ -53,27 +74,6 @@
                 <div class="s-row">
                     <i class="fa-brands fa-instagram"></i>
                     <a href="https://www.instagram.com/constructora.dimaco/?hl=es" target="_blank">Instagram</a>
-                </div>
-            </div>
-            <h4>Contacto</h4>
-            <div class="column-c">
-                <div class="c-row">
-                    <i class="fa-solid fa-shop"></i>
-                    <label>Mariano Zuñiga 113, Metepec, Mexico</label>
-                </div>
-                <div class="c-row">
-                    <i class="fa-solid fa-phone"></i>
-                    <label>722 212 7818</label>
-                </div>
-                <div class="c-row">
-                    <i class="fa-solid fa-envelope"></i>
-                    <label>constructora@scdimaco.com</label>
-                </div>
-            </div>
-            <div class="column-h">
-                 <div class="s-row">
-                    <h4>Horarios de Atencion</h4>
-                    <p>Lunes - Viernes 9:00 - 18:00</p>
                 </div>
             </div>
         </div>

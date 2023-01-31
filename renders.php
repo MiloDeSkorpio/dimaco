@@ -3,11 +3,11 @@
 <body>
 <main class="container">
 <section>
-    <div class="contenedor">
+    <div class="contenedor pading-top">
     <h2>Renders</h2>
     <div class="render">
         <div class="twinmotion-embed-wrapper">
-            <iframe style="height: 100%; width: 100%; min-height: 375px; min-width: 375px;"
+            <iframe style="height: 100%; width: 100%; min-height: 450px; min-width: 360px;"
                 title="Embedded panorama 'Panorama set1'" frameborder="0"
                 allow="fullscreen; gyroscope; accelerometer; magnetometer; execution-while-out-of-viewport; execution-while-not-rendered;"
                 allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
