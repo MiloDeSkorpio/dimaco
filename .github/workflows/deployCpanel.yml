@@ -6,7 +6,7 @@ on:
 name: 🚀 Deploy Dimaco
 jobs:
   web-deploy:
-    name: 🎉 Deploy Diamco
+    name: 🎉 Deploy Dimaco
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
