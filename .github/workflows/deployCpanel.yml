@@ -18,4 +18,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER  }}
         username: ${{ secrets.FTP_USERNAME  }}
         password: ${{ secrets.FTP_USERNAME  }}
-        server-dir: /home/scdimaco/scdimaco.com/publlic_html/
+        server-dir: /home/scdimaco/publlic_html/
