@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4443851d27.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="build/img/log.png" type="image/x-icon">
+    <link rel="stylesheet" href="build/css/app.css">
+
+    <title>Dimaco | Contacto</title>
+</head>
+<body class="dark-mode">
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <header class="header sombra">
+        <div class="logo">
+            <a href="index.html"><img src="build/img/logo_dim.png" alt="logo dimaco"></a>
+        </div>
+        <div class="menu">
+            <div class="options">
+                <a href="index.html">
+                    <div class="option">
+                        <p>Inicio</p>
+                    </div>
+                </a>
+                <a href="nosotros.html">
+                    <div class="option">
+                        <p>Nosotros</p>
+                    </div>
+                </a>
+                <a href="renders.html">
+                    <div class="option">
+                        <p>Renders</p>
+                    </div>
+                </a>
+                <a href="proyectos.html">
+                    <div class="option">
+                        <p>Proyectos</p>
+                    </div>
+                </a>
+                <a href="contacto.html">
+                    <div class="option">
+                        <p>Contacto</p>
+                    </div>
+                </a>
+            </div>
+        </div> <!-- .menu -->
+        <div class="icon_menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+ <body>
+    
+<main class="container">
+<section>
+    <div class="contenedor-c pading_top_2">
+        <div class="form-cont">
+            <div class="contacto-bg"></div>
+            <form  action="correos.php" method="post" class="formulario glass" id="form">
+                <div class="campo">
+                    <label class="campo_label label-b"  for="nombre">Nombre</label>
+                    <input class="campo_field" type="text" placeholder="Tu Nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label class="campo_label label-b " for="telefono">Teléfono</label>
+                    <input class="campo_field" type="tel" placeholder="Tu Telefono" name="telefono" required>
+                </div>
+                <div class="campo">
+                    <label class="campo_label label-b"  for="email">E-mail</label>
+                    <input class="campo_field" type="email" placeholder="Tu E-mail" name="email" required>
+                </div>
+                <div class="campo">
+                    <label class="campo_label label-b"  for="asunto">Asunto</label>
+                    <input class="campo_field" type="text" placeholder="Tu Asunto" name="asunto" required         >
+                </div>
+                <div class="campo">
+                    <label class="campo_label label-b"  for="mensaje">Mensaje</label>
+                    <textarea class="campo_field campo_field-textarea" name="mensaje" required></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Enviar" class="boton boton_primario" name="enviar">
+                </div>
+            </form>
+        </div>
+        <div class="form-redes glass">
+                    <h4>Contacto</h4>
+            <div class="column-c">
+                <div class="c-row">
+                    <i class="fa-solid fa-shop"></i>
+                    <label>Mariano Zuñiga 113, Metepec, Mexico</label>
+                </div>
+                <div class="c-row">
+                    <i class="fa-solid fa-phone"></i>
+                    <label>722 212 7818</label>
+                </div>
+                <div class="c-row">
+                    <i class="fa-solid fa-envelope"></i>
+                    <label>constructora@scdimaco.com</label>
+                </div>
+            </div>
+            <div class="column-h">
+                 <div class="s-row">
+                    <h4>Horarios de Atencion</h4>
+                    <p>Lunes - Viernes 9:00 - 18:00</p>
+                </div>
+            </div>
+            <h4>Redes Sociales</h4>
+            <div class="column-s">
+                <div class="s-row">
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100076341842163" target="_blank">Facebook</a>
+                </div>
+                <div class="s-row">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <a href="https://wa.me/message/IVQUUYFBJR73A1" target="_blank">WhatsApp</a>
+                    <div class="qr">
+                        <picture>
+                                <source srcset="build/img/qrwa.webp" type="image/webp">
+                                <source srcset="build/img/qrwa.jpeg" type="image/jpeg">
+                                <img loading="lazy" src="build/img/qrwa.jpeg" alt="qrbr">
+                        </picture>
+                    </div>
+                </div>
+                <div class="s-row">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/constructora.dimaco/?hl=es" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>        
+</section>
+</main> 
+</body>
+<script src=build/js/bundle.min.js"></script>
+</html>
