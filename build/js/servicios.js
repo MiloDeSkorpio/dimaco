@@ -70,7 +70,7 @@ servicios.forEach((servicios) =>  {
     <picture>
         <source srcset="${servicios.imgw}" type="image/webp">
         <source srcset="${servicios.imgj}" type="image/jpg">
-        <img src="${servicios.imgj}" alt="">
+        <img src="${servicios.imgj}" alt="Imagen de ${servicios.nombre}">
     </picture>
     </div><!--.img_service  -->
     <h3 class="titulo">${servicios.nombre}</h3>

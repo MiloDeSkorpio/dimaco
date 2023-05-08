@@ -192,7 +192,7 @@ const proyectos = [
         imagen.classList.add("galery-i")
         imagen.innerHTML = ` 
             <picture id=${p}>
-            <img loading="lazy" src="${proyectos[p].imagenes[i].img}" alt="imagen obra" id="${i}" class=${p}>
+            <img loading="lazy" src="${proyectos[p].imagenes[i].img}" alt="Imagen ${i+1} de ${proyectos[p].nombre}" id="${i}" class=${p}>
             </picture>
             `;
         galery.appendChild(imagen);
