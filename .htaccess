@@ -4,6 +4,8 @@ Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 RewriteEngine On
 
+ErrorDocument 404 /error404.html
+
 # Redireccionar desde '/index.html' a '/'
 RewriteCond %{REQUEST_URI} ^/index.html$
 RewriteRule ^(.*)$ / [R=301,L]
@@ -23,5 +25,3 @@ RewriteRule ^(.*)$ /proyectos [R=301,L]
 # Redireccionar desde '/contacto.html' a '/contacto'
 RewriteCond %{REQUEST_URI} ^/contacto.html$
 RewriteRule ^(.*)$ /contacto [R=301,L]
-
-ErrorDocument 404 /error404.html
