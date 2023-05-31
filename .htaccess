@@ -2,3 +2,25 @@
 <FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|js|css|swf)$">
 Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
+RewriteEngine On
+
+# Redireccionar desde '/index.html' a '/'
+RewriteCond %{REQUEST_URI} ^/index.html$
+RewriteRule ^(.*)$ / [R=301,L]
+
+# Redireccionar desde '/nosotros.html' a '/nosotros'
+RewriteCond %{REQUEST_URI} ^/nosotros.html$
+RewriteRule ^(.*)$ /nosotros [R=301,L]
+
+# Redireccionar desde '/renders.html' a '/renders'
+RewriteCond %{REQUEST_URI} ^/renders.html$
+RewriteRule ^(.*)$ /renders [R=301,L]
+
+# Redireccionar desde '/proyectos.html' a '/proyectos'
+RewriteCond %{REQUEST_URI} ^/proyectos.html$
+RewriteRule ^(.*)$ /proyectos [R=301,L]
+
+# Redireccionar desde '/contacto.html' a '/contacto'
+RewriteCond %{REQUEST_URI} ^/contacto.html$
+RewriteRule ^(.*)$ /contacto [R=301,L]
+
