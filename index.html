@@ -19,6 +19,17 @@
     <link rel="shortcut icon" href="build/img/log.png" type="image/x-icon">
     <link rel="preload" href="build/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="build/css/app.css"></noscript>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/build/js/service-worker.js').then(function(registration) {
+              console.log('Service Worker registrado con ámbito:', registration.scope);
+            }).catch(function(error) {
+              console.log('La registración del Service Worker ha fallado:', error);
+            });
+          });
+        }
+      </script>
     <title>Dimaco | Home</title>
 </head>
 <body class="dark-mode">
