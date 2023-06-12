@@ -6,29 +6,3 @@ RewriteEngine On
 
 ErrorDocument 404 /error404.html
 
-<IfModule mod_deflate.c>
-  # Habilitar la compresión para recursos de texto
-  AddOutputFilterByType DEFLATE text/plain
-  AddOutputFilterByType DEFLATE text/html
-  AddOutputFilterByType DEFLATE text/css
-  AddOutputFilterByType DEFLATE text/javascript
-  AddOutputFilterByType DEFLATE application/javascript
-  AddOutputFilterByType DEFLATE application/x-javascript
-  AddOutputFilterByType DEFLATE application/xml
-  AddOutputFilterByType DEFLATE application/xhtml+xml
-  AddOutputFilterByType DEFLATE application/rss+xml
-  AddOutputFilterByType DEFLATE application/atom+xml
-  AddOutputFilterByType DEFLATE application/json
-  AddOutputFilterByType DEFLATE application/x-font-ttf
-  AddOutputFilterByType DEFLATE application/font-woff2
-  AddOutputFilterByType DEFLATE image/svg+xml
-
-  # No comprimir imágenes, archivos binarios y otros recursos no comprimibles
-  SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
-  SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
-  SetEnvIfNoCase Request_URI \.pdf$ no-gzip dont-vary
-
-  # Configurar cabeceras para indicar la compresión
-  Header append Vary User-Agent env=!dont-vary
-  Header set Content-Encoding gzip
-</IfModule>
