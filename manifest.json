@@ -1,0 +1,22 @@
+{
+  "name": "Constructora Dimaco",
+  "short_name": "Dimaco",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#333",
+  "icons": [
+    {
+      "src": "/build/img/log.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/build/img/log-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
