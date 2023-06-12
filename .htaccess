@@ -6,7 +6,3 @@ RewriteEngine On
 
 ErrorDocument 404 /error404.html
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5e261c5617be6d6248eeacb5ad003295ba618b0b
